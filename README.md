@@ -1,5 +1,5 @@
 # SCNET
-The project is the implementation of the papers SCNET: A Novel UGI Cancer Screening Framework Based on Semantic-Level Multi modal Data Fusion.
+This project is the implementation of the papers SCNET: A Novel UGI Cancer Screening Framework Based on Semantic-Level Multi modal Data Fusion.
 
 # Prerequisites 
 The runtime environment of our codes:
