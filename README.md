@@ -8,4 +8,5 @@ The runtime environment of our codes:
     tensorflow
     keras
 
-
+# Training from Scratch
+We provide the scripts for training SCNET models from scratch. Simply running the python scripts train.py to train the models from scratch.
