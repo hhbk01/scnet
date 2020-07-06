@@ -99,7 +99,7 @@ class SCNet(Deep_Net):
         xi_ = GlobalAveragePooling2D(name='global_pooling')(xi)
         x_mix = Concatenate(name='concat1')([xi_, xt_att])
         x_mix = Dense(512, activation='relu', name='att1')(x_mix)
-        x_mix = Dense(512, activation='relu', name='att2')(x_mix)
+        x_mix = Dense(512, activation='sigmoid', name='att2')(x_mix)
         x_mix = Reshape((1, 1, 512))(x_mix)
         xi = Multiply(name='map')([xi, x_mix])
         x9 = Flatten()(xi)
